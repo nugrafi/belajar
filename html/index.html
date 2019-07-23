@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Belajar dasar-dasar HTML</title>
-    </head>
-    <body>
-        <a target="_blank" href="https://www.tutorialspoint.com/html/html_elements.htm">link belajar html</a>
-        ini adalah body tempat content di muat oleh web browser
 
-        <p><a href="heading.html">Belajar Heading</a> </p>
-    </body>
+<head>
+    <title>Belajar dasar-dasar HTML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"
+        integrity="sha256-PF6MatZtiJ8/c9O9HQ8uSUXr++R9KBYu4gbNG5511WE=" crossorigin="anonymous" />
+
+    <style>
+        body {
+            background: #FFFFFF;
+        }
+
+        h1 {
+            color: green;
+        }
+
+        a {
+            text-decoration: none;
+            color: #37A865;
+        }
+
+        a:hover {
+            color: black;
+            font-size: 1.5rem;
+            animation: ease;
+        }
+
+        .inline {
+            list-style-type: none;
+            display: inline-flex;
+
+        }
+
+        .inline li {
+            margin: 5px;
+        }
+
+        footer h5 {
+
+            font-size: 1.2em !important;
+            color: cadetblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h3>link belajar HTML</h3>
+    <ul style="list-style-type:square;" class="tetep">
+        <li>
+            <a target="_blank" href="https://www.tutorialspoint.com/html/html_elements.htm">tutorialspoint.com</a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://www.w3schools.com/html/default.asp">w3cschools.com</a>
+        </li>
+    </ul>
+    ini adalah body tempat content di muat oleh web browser
+
+    <p><a href="heading.html">Belajar Heading</a> </p>
+
+    <hr>
+
+    <footer>
+
+        <h5>link social media</h5>
+        <ul class="inline">
+            <li><a href="https://www.facebook.com/nugrafi"><i class="fab fa-facebook-square"></i></a> </li>
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-whatsapp-square"></i></li>
+        </ul>
+    </footer>
+</body>
+
 </html>
